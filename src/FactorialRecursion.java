@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class FactorialRecursion{
 
     static int factorial(int num){
@@ -10,14 +12,23 @@ public class FactorialRecursion{
         }
         
         return num * factorial(num - 1);
-        
     }
 
     public static void main(String[] args) {
 
+        Scanner scanner = new Scanner(System.in); 
+
         System.out.println("****************FACTORIAL RECURSION****************");
 
-        System.out.println(factorial(5));
+        System.out.print("Enter a number to get it's factorial: ");
 
+        String input = scanner.nextLine();
+
+        int number = Integer.parseInt(input);
+
+        if(number > 0) System.out.printf("The factorial of %d is %d ",number,factorial(number));
+        else{
+            System.out.println(factorial(number));
+        }
     }
 }
