@@ -14,7 +14,10 @@ public class FactorialRecursion{
     }
 
     public static void main(String[] args) {
-        System.out.println(factorial(-399));
+
+        System.out.println("****************FACTORIAL RECURSION****************");
+
+        System.out.println(factorial(5));
 
     }
 }
