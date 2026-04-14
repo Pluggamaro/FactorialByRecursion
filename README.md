@@ -151,13 +151,13 @@ Each call waits on the stack until the base case is reached, then the results ar
 
 ```
 ****************FACTORIAL RECURSION****************
-Enter a number to get it's factorial: 5
+Enter a number to get its factorial: 5
 The factorial of 5 is 120
 ```
 
 ```
 ****************FACTORIAL RECURSION****************
-Enter a number to get it's factorial: -3
+Enter a number to get its factorial: -3
 Consider numbers greater than 1!
 0
 ```
