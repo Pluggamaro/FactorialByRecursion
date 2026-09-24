@@ -1,6 +1,6 @@
 # FactorialByRecursion
 
-A beginner-friendly Java project that demonstrates **recursion** by calculating the factorial of a number. This project is designed to help developers understand how recursive functions work, how the call stack is used, and how to reason about base and recursive cases.
+A simple Java project that demonstrates **recursion** by calculating the factorial of a number. This project is designed to help developers understand how recursive functions work, how the call stack is used, and how to reason about base and recursive cases.
 
 ---
 
